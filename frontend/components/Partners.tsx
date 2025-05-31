@@ -3,7 +3,7 @@ import React from 'react'
 
 const Partners = () => {
   return (
-    <div className='flex flex-col lg:flex-row items-center gap-5 lg:gap-20 w-full'>
+    <div className='root-container flex flex-col lg:flex-row items-center gap-5 lg:gap-20 w-full'>
         <div className='text-nowrap text-gray-500'>Trusted by top companies</div>
         <div className='flex items-center justify-center lg:justify-between w-full flex-wrap gap-x-5 gap-y-4'>
             <Image src="/img2.svg" alt='Indisis' width={100} height={100} priority className='w-24' />

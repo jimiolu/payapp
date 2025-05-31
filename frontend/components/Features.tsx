@@ -6,7 +6,7 @@ import { div } from "motion/react-client";
 
 export function Features() {
   return (
-    <div className="space-y-16 py-24">
+    <div className="root-container space-y-16 pb-20 pt-32">
       <div className="justify-items-center space-y-4 text-center">
         <h2 className="text-4xl font-medium text-basecolor">
           The Quide Link Platform
@@ -40,20 +40,20 @@ export function Features() {
             className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
           />
         </WobbleCard>
-        <WobbleCard containerClassName="col-span-1 min-h-[300px] border border-gray-200 bg-primary">
-          <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+        <WobbleCard containerClassName="col-span-1 min-h-[300px] border border-gray-200 bg-white">
+          <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-basecolor">
             Track Payments in Real Time
           </h2>
-          <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
+          <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-500">
             Get instant updates on every transaction. Know who paid, when, and
             how—right from your dashboard.
           </p>
         </WobbleCard>
-        <WobbleCard containerClassName="col-span-1 min-h-[300px] border border-gray-200 bg-primary">
-          <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+        <WobbleCard containerClassName="col-span-1 min-h-[300px] border border-gray-200 bg-white">
+          <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-basecolor">
             Mobile-Friendly Experience
           </h2>
-          <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
+          <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-500">
             Optimized for every device. Create, share, and monitor your payment
             links on the go with ease.
           </p>

@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 
 const Hero = () => {
   return (
-    <div className="h-[70vh] flex flex-col lg:flex-row items-center gap-10">
+    <div className="root-container h-[70vh] flex flex-col lg:flex-row items-center gap-10">
       <div className="flex-1">
         <div className="flex flex-col gap-10 h-full  justify-center text-basecolor">
           <div className="flex flex-col gap-4 items-center lg:items-start text-center lg:text-start">
