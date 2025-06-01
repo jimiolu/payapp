@@ -16,7 +16,7 @@ const WhoFor = () => {
           </span>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 wrap-normal lg:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           <div className="container bg-white aspect-square rounded-lg overflow-hidden">
             <div className="border-t-8 border-secondary" />
             <div className="flex flex-col gap-5 justify-center h-full p-8">

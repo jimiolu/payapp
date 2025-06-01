@@ -30,7 +30,7 @@ const Hero = () => {
       </div>
 
       <div className="flex-1 hidden lg:block">
-        <Image src="/img.svg" alt="Banner" width={500} height={500} />
+        <Image src="/img.svg" alt="Banner" priority width={500} height={500} />
       </div>
     </div>
   );
